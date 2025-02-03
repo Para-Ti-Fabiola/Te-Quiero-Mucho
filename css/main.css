@@ -1,57 +1,68 @@
-*{
+* {
     margin: 0;
     padding: 0;
 
     font-family: cursive;
 }
+
 body {
-    overflow-y:hidden!important;
-    overflow-x:hidden!important;
-    background-image: url("../img/Monkey\ D\ .jpg");
+    overflow-y: hidden !important;
+    overflow-x: hidden !important;
+    background-image: url("../img/corazon\ de\ nube\ .jpg");
     background-position: center center;
 }
-#container, #container2,#container3{
-  
+
+#container,
+#container2,
+#container3 {
+
     width: 100vw;
     height: 110vh;
 
-    
+
 }
 
 
 /* PARTE 1 */
 
-#container h1{
+#container h1 {
     font-size: 4rem;
 }
 
-.saludo{
+.saludo {
     height: 80%;
     width: 70%;
 
-    position:absolute;
+    position: absolute;
     right: 0;
     left: 0;
     top: 10;
-    bottom:0;
-    margin:auto;
+    bottom: 0;
+    margin: auto;
 }
-.entrada{
+
+.entrada {
     margin-bottom: 15%;
 }
-.img{
-    height: 150px; 
+
+.img {
+    height: 150px;
     width: 200px;
     animation: latir 3s linear infinite;
 }
-img:hover{
+
+img:hover {
     cursor: pointer;
 }
+
 @keyframes latir {
-    0%,100%{
+
+    0%,
+    100% {
         transform: scale(0.8);
     }
-    50%{
+
+    50% {
         transform: scale(1.2);
     }
 }
@@ -65,56 +76,65 @@ img:hover{
 
 /* PARTE 2 */
 
-    .saludo2{
-        height: 90%;
-        width: 80%;
-        
-        position:absolute;
-        right: 0;
-        left: 0;
-        top: 10;
-        bottom:0;
-        margin:auto;
-      
-    }
-    .title{
-        font-size: 3rem;
-    }
+.saludo2 {
+    height: 90%;
+    width: 80%;
+
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 10;
+    bottom: 0;
+    margin: auto;
+
+}
+
+.title {
+    font-size: 3rem;
+}
 
 /* FIN PARTE 2 */
-@media (max-width:769px){
- 
-    .saludo{
+@media (max-width:769px) {
+
+    .saludo {
         height: 90%;
         width: 70%;
     }
-    .saludo2{
+
+    .saludo2 {
         height: 90%;
         width: 80%;
 
     }
-    #container h1{
-        font-size: 3rem;  
+
+    #container h1 {
+        font-size: 3rem;
     }
-    .saludo2 h2{
-        font-size:1.5rem;
+
+    .saludo2 h2 {
+        font-size: 1.5rem;
     }
-    .title{
+
+    .title {
         font-size: 2rem;
     }
 
 }
-@media (max-width:500px){
-    #container h1{
-        font-size: 2rem;  
+
+@media (max-width:500px) {
+    #container h1 {
+        font-size: 2rem;
     }
-    .entrada{
+
+    .entrada {
         margin-bottom: 50%;
     }
-    .saludo2 h2{
-        font-size:.9rem;
+
+    .saludo2 h2 {
+        font-size: .9rem;
     }
-    .title{
+
+    .title {
         font-size: 1.3rem;
     }
 }
