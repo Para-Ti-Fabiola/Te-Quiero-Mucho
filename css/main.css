@@ -4,15 +4,17 @@
 
     font-family: cursive;
 }
+
 body {
-    overflow-y:hidden!important;
-    overflow-x:hidden!important;
+    overflow: hidden !important;
     background-image: url("../img/nubef.png");
     background-position: center center;
-
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     font-family: 'Roboto', sans-serif;
-        
 }
+        
 #container, #container2,#container3{
   
     width: 100vw;
