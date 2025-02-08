@@ -9,6 +9,9 @@ body {
     overflow-x:hidden!important;
     background-image: url("../img/nubef.png");
     background-position: center center;
+
+    font-family: 'Roboto', sans-serif;
+        
 }
 #container, #container2,#container3{
   
@@ -18,6 +21,22 @@ body {
     
 }
 
+h1,
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    /* Negrita */
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    /* Normal */
+}
+
+.typed {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
 
 /* PARTE 1 */
 
