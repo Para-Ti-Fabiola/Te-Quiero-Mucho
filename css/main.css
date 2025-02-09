@@ -12,19 +12,22 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    /* Se mantiene en desktop */
     font-family: 'Roboto', sans-serif;
 }
-
-/* Ajuste para móviles */
-@media (max-width: 768px) {
-    body {
-        background-attachment: scroll;
-        /* Evita el problema en móviles */
-        background-size: cover;
-        /* Ajusta la imagen al tamaño */
-    }
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../img/nubef.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    /* Para que quede detrás del contenido */
 }
+
         
 #container, #container2,#container3{
   
