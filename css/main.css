@@ -12,7 +12,18 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    /* Se mantiene en desktop */
     font-family: 'Roboto', sans-serif;
+}
+
+/* Ajuste para móviles */
+@media (max-width: 768px) {
+    body {
+        background-attachment: scroll;
+        /* Evita el problema en móviles */
+        background-size: cover;
+        /* Ajusta la imagen al tamaño */
+    }
 }
         
 #container, #container2,#container3{
