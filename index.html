@@ -7,10 +7,12 @@
     <link rel="stylesheet" href="css/main.css" type="text/css" media="screen">
     <link rel="stylesheet" href="css/corazon.css" type="" media="">
     <title> >3 </title>
+    <script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
+<canvas id="canvas" width="800" height="600"></canvas>
 <div class="background"></div>
 
     <style>
@@ -119,22 +121,23 @@
 
             // Definición de frases
             var frases = [
-              'Nunca imaginé que un simple mensaje enviado por diversión cambiaría el rumbo de nuestras vidas, Aquella tarde, mientras revisaba mi teléfono, vi tu nombre y, sin pensarlo demasiado, escribí: "Hola", Lo que empezó como una conversación trivial pronto se convirtió en un juego de adivinanzas y respuestas evasivas, Al principio, no reconociste mi número, pero la curiosidad te llevó a seguir respondiendo',
+              'Nunca imaginé que un simple mensaje enviado por diversión cambiaría el rumbo de nuestras vidas, Aquella tarde, mientras revisaba mi celular, vi tu nombre y, sin pensarlo demasiado, escribí: "Hola", Lo que empezó como una conversación trivial pronto se convirtió en un juego de adivinanzas y respuestas evasivas, Al principio, no reconociste mi número, pero la curiosidad te llevó a seguir respondiendo',
 
-            'El tiempo pasó y, entre bromas y malentendidos, nos volvimos alguien recurrente en la vida del otro, Al inicio, tu indiferencia predominaba, pero poco a poco mis mensajes nocturnos, mis intentos de hacerte reír y mi insistencia en llamarte fueron creando un vínculo especial. Un día, tuviste un problema en casa, esa noche que salimos y nos quedamos. Preocupado, intenté ayudarte, aunque yo mismo enfrentaba mis propias dificultades. Fue en esa noche, entre confesiones y silencios compartidos, que comprendimos que lo nuestro iba más allá de una simple amistad.',
+            'El tiempo pasó y, entre bromas y malentendidos, nos volvimos alguien recurrente en la vida del otro, Al inicio, tu indiferencia predominaba, pero poco a poco mis mensajes nocturnos, mis intentos de hacerte reír y mi insistencia en llamarte fueron creando un vínculo especial. Esa noche que salimos la primera vez y nos quedamos, tuviste un problema en casa. Preocupado, intenté ayudarte, aunque yo mismo enfrentaba mis propias dificultades. Fue en esa noche, entre confesiones y silencios compartidos, que comprendimos que lo nuestro iba más allá de una simple amistad.',
 
             'Las dudas todavía rondaban nuestras mentes.Inseguro por un pasado incierto, te pregunté si había alguien más en tu vida. Con franqueza, me aseguraste que no. Finalmente, después de tanto juego de palabras y evasivas, tomé valor y te pregunté directamente:',
 
-                '—¿Quieres ser mi novia?',
+            '—¿Quieres ser mi novia?',
 
-                'Tu corazón latió con fuerza. Sonreíste y, sin dudarlo, respondiste:',
+            'Sentia que tu corazón latió con fuerza y sin dudarlo, respondiste:',
 
-                '—Pues está bien… acepto.',
+            '—Pues está bien… acepto.',
 
-                'Todo comenzó el 16/09/2024, nuestra historia cambió. Las noches de mensajes interminables se transformaron en citas, en miradas cómplices y en promesas susurradas. Juntos aprendimos que el amor no siempre llega con un gran anuncio, sino que a veces se esconde en los detalles más simples como en una "cena algo", un "te extraño" o un "sueña conmigo".',
+            'Todo comenzó el 16/09/2024, nuestra historia cambió. Las noches de mensajes interminables se transformaron en citas, en miradas cómplices y en promesas susurradas. Juntos aprendimos que el amor no siempre llega con un gran anuncio, sino que a veces se esconde en los detalles más simples como en una "cena algo", un "te extraño" o un "sueña conmigo".',
 
-                'Bueno por este catorce de febrero, quise hacerte un regalo especial. No es algo material, sino algo que representara todo lo que significas para mí. Quise plasmar en palabras lo que a veces me cuesta decirte con la voz. Quise que supieras que cada momento contigo es un regalo que valoro infinitamente.',
-                'Gracias por llegar a mi vida,te amo como no te imaginas.'
+            'Bueno por este catorce de febrero, quise hacerte un regalo especial y exclusivo para ti. No es algo material, sino algo que representara todo lo que significas para mí. Quise plasmar en palabras lo que a veces me cuesta decirte con la voz. Quise que supieras que cada momento contigo es un regalo que valoro infinitamente.',
+            
+            'Gracias por llegar a mi vida,te amo.'
             ];
 
             // Iniciar Typed.js con las frases
