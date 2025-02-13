@@ -6,6 +6,7 @@
         const stage = new createjs.Stage("canvas");
         const w = stage.canvas.width;
         const h = stage.canvas.height;
+        
 
         // Texto centrado
         var text = new createjs.Text(
@@ -44,10 +45,11 @@
 
         // Ajustar tamaño del canvas si la ventana cambia
         window.addEventListener("resize", () => {
-            canvas.width = window.innerWidth;
-            canvas.height = window.innerHeight;
-            stage.canvas.width = canvas.width;
-            stage.canvas.height = canvas.height;
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+        stage.canvas.width = canvas.width;
+        stage.canvas.height = canvas.height;
+        stage.update();
         });
     
 
