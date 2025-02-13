@@ -23,7 +23,7 @@
             star.graphics.beginFill(getRandomColor()).drawPolyStar(0, 0, 10, 5, 0.6, -90);
             star.x = Math.random() * w;
             star.y = h + 20;
-            star.scaleX = star.scaleY = Math.random() * 2.0 + 0.5; // Tamaño aleatorio
+            star.scaleX = star.scaleY = Math.random() * 2.9 + 0.5; // Tamaño aleatorio
             stage.addChild(star);
 
             createjs.Tween.get(star)
