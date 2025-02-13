@@ -1,9 +1,10 @@
 body {
     margin: 0;
     overflow: hidden;
-    background: black;
+    background-color: black;
 }
 
 canvas {
     display: block;
 }
+

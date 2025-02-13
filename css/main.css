@@ -5,29 +5,50 @@
     font-family: cursive;
 }
 
+
 body {
     overflow: hidden !important;
-    background-image: url("../img/nubef.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Roboto', sans-serif;
-}
+    transition: background-image 1s ease-in-out;
+    margin: 0;
+    overflow: hidden;
+   
+        }
+    
+
 .background {
+    transition: background-image 1s ease-in-out;
     position: fixed;
     top: 0;
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-image: url("../img/nubef.png");
+    background-image: url("img/nubef.png");
+    /* Imagen inicial */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -1;
-    /* Para que quede detrás del contenido */
 }
 
+#typed-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+canvas {
+    display: block;
+
+
+}
         
 #container, #container2,#container3{
   
