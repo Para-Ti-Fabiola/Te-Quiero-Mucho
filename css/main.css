@@ -7,18 +7,15 @@
 
 
 body {
-    overflow: hidden !important;
+    margin: 0;
+    overflow: hidden;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Roboto', sans-serif;
     transition: background-image 1s ease-in-out;
-    margin: 0;
-    overflow: hidden;
-   
-        }
-    
+}
 
 .background {
     transition: background-image 1s ease-in-out;
@@ -43,12 +40,23 @@ body {
     font-size: 24px;
     color: white;
     font-weight: bold;
+    text-align: center;
+    width: 90%;
 }
+
 canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
     display: block;
-
-
+    pointer-events: none;
+    z-index: 0;
 }
+
+
+
         
 #container, #container2,#container3{
   
