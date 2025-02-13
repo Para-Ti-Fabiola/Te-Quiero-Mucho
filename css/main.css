@@ -138,16 +138,6 @@ img:hover{
     position: absolute;
     animation: carga 2s linear infinite;
 }
-
-@keyframes carga {
-    0% {
-        width: 0;
-    }
-
-    100% {
-        width: 100%;
-    }
-}
 /* FIN PARTE 1 */
 
 
